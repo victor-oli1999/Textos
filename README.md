@@ -1,2 +1,2 @@
 # Textos
- Gerador de textos para enviar no trabalho
+ Gerador de textos para enviar no trabalho.

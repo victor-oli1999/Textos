@@ -24,6 +24,7 @@ print(parag_total)
 
 #Json file
 
-with open(titulo, "w" ) as f:
-    json.dump(parag_total, f)
+#with open(titulo, "w" ) as f:
+#    json.dump(parag_total, f)
+
 
