@@ -16,9 +16,9 @@ function Botoes() {
         </div>
         <div className="check--box">
             <input type="checkbox" id="introducao" name="introducao" />
-            <label>Me introduzir</label>
+            <label for="introducao">Me introduzir</label>
             <input type="checkbox" id="assinatura" name="assinatura" />
-            <label>Assinatura</label>
+            <label for="assinatura">Assinatura</label>
         </div>
       </div>
     );
