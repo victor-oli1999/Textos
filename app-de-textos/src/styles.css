@@ -1,0 +1,68 @@
+body {
+    font-family: "Inter";
+    margin: 0px;
+}
+.App {
+    display: flex;
+    flex-direction: row;
+}
+.Conteudos, .Textos {
+    width: 33%;
+}
+input[type="text"], textarea#texto--escrito{
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 94%;
+}
+/* CONTEUDOS */
+.Conteudos {
+    background: #aaa;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.Botoes {
+    text-align: center;
+    margin: auto;
+    padding: 35px 0;
+    width: 75%;
+}
+input#nome-cliente {
+    margin: 15px 0;
+}
+.Conteudo {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+/* MACROS */
+
+/* TEXTOS */
+.Textos {
+    background: #aaa;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.titulo {
+    text-align: center;
+    margin: 35px;
+}
+.Texto--finalizado {
+    color: #eee;
+    height: 500px;
+    background: #0B2123;
+    border-radius: 30px;
+    margin: 30px 50px;
+}
+.Texto--finalizado p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Saudacao {
+    padding-top: 30px
+}
